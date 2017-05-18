@@ -4,6 +4,6 @@ If you considered to use third level domain eg:r.example.com, just copy index.ph
 
 *Then* make ```*.r.domain.com IN A <yourserver IP>```
 
-**Readymade redirector**
-make the cname record at DNS
+######Readymade redirector
+make the cname record at DNS <br />
 ```www.domain.com``` IN CNAME ```www.new-domain.com.r.kernellab.site```
