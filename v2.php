@@ -19,6 +19,7 @@ if(!empty($server_name)) {
 		unset($server_array[$s + 1]);
 		$returnURL = 'http://' . implode('.',$server_array);
 		header("Location: ".$pageURL);
+		die();
 	} else {
 		defaultPage();
 	}
